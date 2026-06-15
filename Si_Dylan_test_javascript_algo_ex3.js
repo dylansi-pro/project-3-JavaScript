@@ -42,6 +42,7 @@ function F33() {
 
 // Fonction utilitaire pour ajouter une ligne d'erreur au tableau HTML
 function afficherErreur(nomTest, index, valeurs) {
+  errorFound = true;
   let numero = index + 1;
 
   let html = `<tr><td>${nomTest} ${numero} incorrect</td>`;
